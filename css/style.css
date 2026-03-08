@@ -48,7 +48,7 @@
 
 .creative {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     position: relative;
     background-position: center;
@@ -58,7 +58,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    margin: auto;
+    margin:auto;
     position: relative;
     
 }
@@ -69,6 +69,7 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+    background-color: black;
 }
 
 .creative-img {
@@ -79,14 +80,13 @@
 
 .creative-info {
     position: absolute;
-    background-color: rgba(0, 7, 14, 0.3);
+    background-color: rgba(0, 7, 14, 0.2);
     padding-top: 150px;
     margin: auto;
     width: 100%;
     height: 100vh;
     top: 50%;
     left: 50%;
-    
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 4;
@@ -96,6 +96,7 @@
     width: 60%;
     margin: -20px 0px 30px 0px;
     color: #e3f1f0;
+    color:black;
      font-size: 35px;
     padding-top: 70px;
     padding-bottom: 20px;
@@ -107,10 +108,11 @@
 
 .creative-p {
     padding-left: 10%;
-    width: 80%;
-    margin: 50px;
+    width: 60%;
+    margin: 50px auto;
     font-size: 22px;
     color: #eff8f8;
+    color:black;
 }
 
 .creative-btn {
@@ -119,11 +121,21 @@
     margin: 20px;
     border: 2px solid #021d31;
     border-radius: 20px;
-    background-color:  #222831;;
+    background-color:  #222831;
     color: #eef2f5;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
+}
+.creative-btn1{
+    background-color:  #eef2f5;
+    color:#222831;
+    border: 2px solid #222831;
+}
+.creative-btn2{
+    background-color:  #222831;
+    color:  #eef2f5;
+    border: 2px solid #eef2f5;
 }
 
 
@@ -136,14 +148,18 @@
     bottom: 0;
     left: 25%;
     margin-top: -10px;
-    background-color: #cacccf;
+    background-color: black;
 }
 
-
-.creative-btn:hover {
-    pointer-events: none;
+.creative-btn1:hover {
+    border: 2px solid #eeeeee;
+    background-color: rgba(34, 40, 49,.6);  
+    color: #eeeeee;
+    cursor: pointer;
+}
+.creative-btn2:hover {
     border: 2px solid #021d31;
-    background-color: rgb(238, 238, 238,.4);    
+    background-color: rgb(238, 238, 238,.6);    
     color: #222831;
     cursor: pointer;
 }
@@ -183,7 +199,7 @@
     height: 40px;
     margin-top: 5px;
     border:2px solid #f4f2f7;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 
@@ -469,12 +485,11 @@
 /*-----------(4)--------------*/
 .Feature {
     width: 100%;
-    height: 100vh;
+ 
 }
 
 .Feature-container {
     width: 90%;
-    height: 100vh;
     margin-left: 5%;
 
 
@@ -642,7 +657,7 @@
 /*-----------(5)--------------*/
 .offer {
     width: 100%;
-    height: 100vh;
+  
 }
 
 .offer-container {
@@ -953,7 +968,7 @@
     position: absolute;
     width: 100%;
     height: 400px;
-    background-color: rgba(0, 7, 14, 0.3);
+    background-color: rgba(0, 7, 14, 0.4);
 
 }
 
@@ -994,11 +1009,11 @@
 
 .price {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .price-contaner {
-    width: 90%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -1032,6 +1047,7 @@
     margin: 30px;
     text-align: center;
     color: #171e42;
+    font-size: 15px;
 }
 
 .price-cont-price {
@@ -1047,7 +1063,7 @@
 .price-price {
     color: #531f4f;
     line-height: 70px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -1062,7 +1078,7 @@
     color: #131527;
     margin: 20px;
     line-height: 2.5;
-
+    font-size: 14px;
 }
 
 .price-cont-btn {
@@ -1137,9 +1153,11 @@
 .fix-img2 {
     width: 100%;
     height: 400px;
+    
 }
 
 .fix-img2-cont-fiximg {
+     margin: 20px;
     width: 100%;
     height: 400px;
     background-image: url(../images/lay31.jpg);
@@ -1157,7 +1175,7 @@
     position: absolute;
     width: 100%;
     height: 400px;
-    background-color: rgba(0, 7, 14, 0.3);
+    background-color: rgba(0, 7, 14, 0.4);
 
 }
 
@@ -1225,8 +1243,8 @@
 .fix-img2-info2-p {
     margin: 20px 0px 0px 90px;
     color: #e2e4e7;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 
@@ -1237,7 +1255,7 @@
 
 .team {
     width: 100%;
-    height: 100vh;
+    height: 90%;
 }
 
 .team-container {
@@ -1378,7 +1396,8 @@
 /*-----------(11)--------------*/
 .recent {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+
 }
 
 .recent-continer {
@@ -1533,7 +1552,7 @@
 /*-----------(12)-start footer-------------*/
 .footer {
     width: 100%;
-    height: 300px;
+   
     background-color: #eeeeee;
 }
 
@@ -1550,12 +1569,13 @@
     width: 300px;
     height: 200px;
     border-radius: 20px;
-    padding: 18px 14px;
     margin: auto;
+    padding: 20px;
 }
 
 .footer-img {
     width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1564,7 +1584,7 @@
     height: 60px;
     background-color: #eeeeee;
     text-align: center;
-    padding-top: 10px;
+   
 }
 
 
@@ -1584,18 +1604,18 @@
     width: 100%;
     height: 20px;
     margin: auto;
-    margin: 10px;
     text-align: center;
     color: #011429;
+
 }
 
 .footer-receved-p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .footer-sp-receved {
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 14px;
 
 }
 
